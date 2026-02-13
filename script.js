@@ -36,7 +36,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
   btn.value = "Sending...";
 
   const serviceID = "default_service";
-  const templateID = "template_sqpyp99";
+  const templateID = "your_templete_id";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
@@ -49,3 +49,4 @@ document.getElementById("form").addEventListener("submit", function (event) {
     }
   );
 });
+
